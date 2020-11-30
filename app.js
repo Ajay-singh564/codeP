@@ -8,7 +8,8 @@ res.send('sucess for abc route')
 
 app.get('/users/:userId/books/:bookId',(req,res)=>{
     console.log("----req---",req.params);
-    res.send({x:req.params})
+    res.send({x:req.params});
+    // we will check 
 })
 
 let port =process.env.PORT || 3000;
